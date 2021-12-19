@@ -31,7 +31,7 @@
 						<!--begin::Logo-->
 						<a href="#" class="d-flex align-items-center">
 						
-                            <asset:image src="logo.png" absolute="true"  class="h-30px">></asset:image>
+                            <asset:image src="logo.png" absolute="true"  class="h-30px"></asset:image>
                         </a>
 						<!--end::Logo-->
 					</div>
@@ -1567,7 +1567,7 @@
 										<div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
 											<!--begin::Menu wrapper-->
 											<div class="cursor-pointer symbol symbol-30px symbol-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-												<img src="assets/media/avatars/150-26.jpg" alt="image" />
+												 <asset:image src="profil.jpg" absolute="true"  class="h-30px"></asset:image>
 											</div>
 											<!--begin::Menu-->
 											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px" data-kt-menu="true">
