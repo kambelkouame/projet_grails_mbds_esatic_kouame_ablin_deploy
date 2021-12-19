@@ -4,8 +4,8 @@
 
 <html lang="en">
 	<!--begin::Head-->
-	<head><base href="../../">
-		<title>Le bon coins</title>
+	
+		<title>Le bon coin</title>
 		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
 		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,13 +36,13 @@
 			<!--begin::Page-->
 			<div class="page d-flex flex-row flex-column-fluid">
 				<!--begin::Aside-->
-				<div id="kt_aside" class="aside pb-5 pt-5 pt-lg-0" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'80px', '300px': '100px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+			<div id="kt_aside" class="aside pb-5 pt-5 pt-lg-0" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'80px', '300px': '100px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle">
 					<!--begin::Brand-->
 					<div class="aside-logo py-8" id="kt_aside_logo">
 						<!--begin::Logo-->
 						<a href="#" class="d-flex align-items-center">
 						
-                            <asset:image src="logo-demo6.svg" absolute="true"></asset:image>
+                            <asset:image src="logo.png" absolute="true"  class="h-30px"></asset:image>
                         </a>
 						<!--end::Logo-->
 					</div>
@@ -66,7 +66,7 @@
 										<span class="menu-icon me-0">
 												<i class="bi bi-file-text fs-2"></i>
 										</span>
-										<span class="menu-title">Annoncement</span>
+										<span class="menu-title">Annonce </span>
 									</span>
 									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
 											<div class="menu-item">
@@ -80,7 +80,7 @@
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-														<span class="menu-title">Anoncement Liste</span>
+														<span class="menu-title">List Anonce </span>
 													</a>
 												</div>
 												<div class="menu-item">
@@ -95,41 +95,6 @@
 											</div>
 									</div>
 								</div>
-								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
-									<span class="menu-link   menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon me-0">
-											<i class="bi bi-shield-check fs-2"></i>
-										</span>
-										<span class="menu-title">Illustration</span>
-									</span>
-									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
-										<div class="menu-item">
-											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Illustration</span>
-											</div>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="/illustration/index">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">illustration list</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="/illustration/create">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">create illustration</span>
-											</a>
-										</div>
-										
-										
-										
-									</div>
-								</div>
-								
 								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
 									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon me-0">
@@ -148,7 +113,7 @@
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Creer un utilisateur</span>
+												<span class="menu-title">Create user</span>
 											</a>
 										</div>
 										<div class="menu-item">
@@ -156,60 +121,14 @@
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Voir la liste des utilisateurs</span>
+												<span class="menu-title">List users</span>
 											</a>
 										</div>
 										
 									</div>
 								</div>
 								
-								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
-									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon me-0">
-											<i class="bi bi-gear fs-2"></i>
-										</span>
-										<span class="menu-title">Setting</span>
-									</span>
-									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
-										<div class="menu-item">
-											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Resources</span>
-											</div>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/documentation/base/utilities.html" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-icon">
-													<i class="bi bi-grid fs-3"></i>
-												</span>
-												<span class="menu-title">Components</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/documentation/getting-started.html" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-icon">
-													<i class="bi bi-box fs-3"></i>
-												</span>
-												<span class="menu-title">Documentation</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo6/layout-builder.html" title="Build your layout, preview and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-icon">
-													<i class="bi bi-layers fs-3"></i>
-												</span>
-												<span class="menu-title">Layout Builder</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/documentation/getting-started/changelog.html">
-												<span class="menu-icon">
-													<i class="bi bi-card-text fs-3"></i>
-												</span>
-												<span class="menu-title">Changelog v8.0.25</span>
-											</a>
-										</div>
-									</div>
-								</div>
+							
 							</div>
 							<!--end::Menu-->
 						</div>
@@ -217,90 +136,7 @@
 					</div>
 					<!--end::Aside menu-->
 					<!--begin::Footer-->
-					<div class="aside-footer flex-column-auto" id="kt_aside_footer">
-						<!--begin::Menu-->
-						<div class="d-flex justify-content-center">
-							<button type="button" class="btn btm-sm btn-icon btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-overflow="true" data-kt-menu-placement="top-start" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-dismiss="click" title="Quick actions">
-								<!--begin::Svg Icon | path: icons/duotune/general/gen008.svg-->
-								<span class="svg-icon svg-icon-1">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-										<path d="M3 2H10C10.6 2 11 2.4 11 3V10C11 10.6 10.6 11 10 11H3C2.4 11 2 10.6 2 10V3C2 2.4 2.4 2 3 2Z" fill="black" />
-										<path opacity="0.3" d="M14 2H21C21.6 2 22 2.4 22 3V10C22 10.6 21.6 11 21 11H14C13.4 11 13 10.6 13 10V3C13 2.4 13.4 2 14 2Z" fill="black" />
-										<path opacity="0.3" d="M3 13H10C10.6 13 11 13.4 11 14V21C11 21.6 10.6 22 10 22H3C2.4 22 2 21.6 2 21V14C2 13.4 2.4 13 3 13Z" fill="black" />
-										<path opacity="0.3" d="M14 13H21C21.6 13 22 13.4 22 14V21C22 21.6 21.6 22 21 22H14C13.4 22 13 21.6 13 21V14C13 13.4 13.4 13 14 13Z" fill="black" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-							</button>
-							<!--begin::Menu 2-->
-							<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px" data-kt-menu="true">
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<div class="menu-content fs-6 text-dark fw-bolder px-3 py-4">Quick Actions</div>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu separator-->
-								<div class="separator mb-3 opacity-75"></div>
-								<!--end::Menu separator-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link px-3">New Ticket</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link px-3">New Customer</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-									<!--begin::Menu item-->
-									<a href="#" class="menu-link px-3">
-										<span class="menu-title">New Group</span>
-										<span class="menu-arrow"></span>
-									</a>
-									<!--end::Menu item-->
-									<!--begin::Menu sub-->
-									<div class="menu-sub menu-sub-dropdown w-175px py-4">
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3">Admin Group</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3">Staff Group</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3">Member Group</a>
-										</div>
-										<!--end::Menu item-->
-									</div>
-									<!--end::Menu sub-->
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link px-3">New Contact</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu separator-->
-								<div class="separator mt-3 opacity-75"></div>
-								<!--end::Menu separator-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<div class="menu-content px-3 py-3">
-										<a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
-									</div>
-								</div>
-								<!--end::Menu item-->
-							</div>
-							<!--end::Menu 2-->
-						</div>
-						<!--end::Menu-->
-					</div>
+				
 					<!--end::Footer-->
 				</div>
 				<!--end::Aside-->
@@ -1776,7 +1612,8 @@
 										<div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
 											<!--begin::Menu wrapper-->
 											<div class="cursor-pointer symbol symbol-30px symbol-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-												<img src="assets/media/avatars/150-26.jpg" alt="image" />
+												 <asset:image src="profil.jpg" absolute="true"  class="h-40px"></asset:image>
+													
 											</div>
 											<!--begin::Menu-->
 											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px" data-kt-menu="true">
@@ -1785,152 +1622,21 @@
 													<div class="menu-content d-flex align-items-center px-3">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px me-5">
-															<img alt="Logo" src="assets/media/avatars/150-26.jpg" />
+															 <asset:image src="profil.jpg" absolute="true"  class="h-40px"></asset:image>
 														</div>
 														<!--end::Avatar-->
 														<!--begin::Username-->
-														<div class="d-flex flex-column">
-															<div class="fw-bolder d-flex align-items-center fs-5">Max Smith
-															<span class="badge badge-light-success fw-bolder fs-8 px-2 py-1 ms-2">Pro</span></div>
-															<a href="#" class="fw-bold text-muted text-hover-primary fs-7">max@kt.com</a>
-														</div>
+														
 														<!--end::Username-->
 													</div>
 												</div>
 												<!--end::Menu item-->
 												<!--begin::Menu separator-->
 												<div class="separator my-2"></div>
-												<!--end::Menu separator-->
+												
 												<!--begin::Menu item-->
 												<div class="menu-item px-5">
-													<a href="../../demo6/dist/account/overview.html" class="menu-link px-5">My Profile</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="../../demo6/dist/pages/projects/list.html" class="menu-link px-5">
-														<span class="menu-text">My Projects</span>
-														<span class="menu-badge">
-															<span class="badge badge-light-danger badge-circle fw-bolder fs-7">3</span>
-														</span>
-													</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
-													<a href="#" class="menu-link px-5">
-														<span class="menu-title">My Subscription</span>
-														<span class="menu-arrow"></span>
-													</a>
-													<!--begin::Menu sub-->
-													<div class="menu-sub menu-sub-dropdown w-175px py-4">
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/referrals.html" class="menu-link px-5">Referrals</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/billing.html" class="menu-link px-5">Billing</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/statements.html" class="menu-link px-5">Payments</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/statements.html" class="menu-link d-flex flex-stack px-5">Statements
-															<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="View your statements"></i></a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu separator-->
-														<div class="separator my-2"></div>
-														<!--end::Menu separator-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<div class="menu-content px-3">
-																<label class="form-check form-switch form-check-custom form-check-solid">
-																	<input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
-																	<span class="form-check-label text-muted fs-7">Notifications</span>
-																</label>
-															</div>
-														</div>
-														<!--end::Menu item-->
-													</div>
-													<!--end::Menu sub-->
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="../../demo6/dist/account/statements.html" class="menu-link px-5">My Statements</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu separator-->
-												<div class="separator my-2"></div>
-												<!--end::Menu separator-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
-													<a href="#" class="menu-link px-5">
-														<span class="menu-title position-relative">Language
-														<span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
-														<img class="w-15px h-15px rounded-1 ms-2" src="assets/media/flags/united-states.svg" alt="" /></span></span>
-													</a>
-													<!--begin::Menu sub-->
-													<div class="menu-sub menu-sub-dropdown w-175px py-4">
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/settings.html" class="menu-link d-flex px-5 active">
-															<span class="symbol symbol-20px me-4">
-																<img class="rounded-1" src="assets/media/flags/united-states.svg" alt="" />
-															</span>English</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/settings.html" class="menu-link d-flex px-5">
-															<span class="symbol symbol-20px me-4">
-																<img class="rounded-1" src="assets/media/flags/spain.svg" alt="" />
-															</span>Spanish</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/settings.html" class="menu-link d-flex px-5">
-															<span class="symbol symbol-20px me-4">
-																<img class="rounded-1" src="assets/media/flags/germany.svg" alt="" />
-															</span>German</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/settings.html" class="menu-link d-flex px-5">
-															<span class="symbol symbol-20px me-4">
-																<img class="rounded-1" src="assets/media/flags/japan.svg" alt="" />
-															</span>Japanese</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="../../demo6/dist/account/settings.html" class="menu-link d-flex px-5">
-															<span class="symbol symbol-20px me-4">
-																<img class="rounded-1" src="assets/media/flags/france.svg" alt="" />
-															</span>French</a>
-														</div>
-														<!--end::Menu item-->
-													</div>
-													<!--end::Menu sub-->
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5 my-1">
-													<a href="../../demo6/dist/account/settings.html" class="menu-link px-5">Account Settings</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="../../demo6/dist/authentication/flows/basic/sign-in.html" class="menu-link px-5">Sign Out</a>
+													<a href="/logout/index" class="menu-link px-5">Sign Out</a>
 												</div>
 												<!--end::Menu item-->
 												<!--begin::Menu separator-->
@@ -1985,7 +1691,7 @@
 								<!--begin::Page title-->
 								<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
 									<!--begin::Title-->
-									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Annonce</h1>
+									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Annonce list</h1>
 									<!--end::Title-->
 									<!--begin::Separator-->
 									<span class="h-20px border-gray-200 border-start mx-3"></span>
@@ -2017,7 +1723,7 @@
 										<li class="breadcrumb-item">
 											<span class="bullet bg-gray-200 w-5px h-2px"></span>
 										</li>
-										
+										<li class="breadcrumb-item text-muted">Annonce list</li>
 									</ul>
 									<!--end::Breadcrumb-->
 								</div>
@@ -2102,13 +1808,13 @@
 												<div class="card-header border-0">
 													<!--begin::Card title-->
 													<div class="card-title">
-														<h2>Annonce Liste</h2>
+														<h2>Annonce List</h2>
 													</div>
 													<!--end::Card title-->
 													<!--begin::Card toolbar-->
 													<div class="card-toolbar">
 														<!--begin::Filter-->
-														<button type="button" class="btn btn-sm btn-flex btn-light-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_payment">
+													
 														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
 														<a href="/annonce/create" >	<button type="button" class="btn btn-sm btn-flex btn-light-success"  data-bs-target="#kt_modal_add_payment">
 														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
@@ -2176,7 +1882,7 @@
                                                                 <td> <g:link controller="annonce" action="show" id="${annonce.id}"><g:each in="${annonce.author}" var="user">
                     ${user.username}
                 </g:each></g:link> </td>
-															<td> <g:link controller="annonce" action="show" id="${annonce.id}"><button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">Shows</button>
+															<td> <g:link controller="annonce" action="show" id="${annonce.id}"><button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">Show</button>
 											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
 										</g:link></td>
 															</tr>
@@ -4103,7 +3809,7 @@
 							<!--begin::Copyright-->
 							<div class="text-dark order-2 order-md-1">
 								<span class="text-muted fw-bold me-1">2021©</span>
-								<a href="/" target="_blank" class="text-gray-800 text-hover-primary">Le bon coins</a>
+								<a href="/" target="_blank" class="text-gray-800 text-hover-primary">Le bon coin</a>
 							</div>
 							<!--end::Copyright-->
 							<!--begin::Menu-->
