@@ -2245,6 +2245,7 @@
 																<td>
 																	<a href="#" class="text-gray-600 text-hover-primary mb-1">${annonce.title}</a>
 																</td>
+																
 
 																<td>
 																	<a href="#" class="text-gray-600 text-hover-primary mb-1"> ${annonce.description}</a>
@@ -2252,7 +2253,7 @@
 																<!--end::Invoice=-->
 																<!--begin::Status=-->
 																<td>
-																
+																	<a href="#" class="text-gray-600 text-hover-primary mb-1">${annonce.price} $</a>
 																</td>
 																<!--end::Status=-->
 																<!--begin::Amount=-->

@@ -4,7 +4,7 @@ import grails.plugin.springsecurity.annotation.Secured
 import grails.validation.ValidationException
 import static org.springframework.http.HttpStatus.*
 
-@Secured(['ROLE_ADMIN','ROLE_CLIENT'])
+@Secured(['ROLE_ADMIN','ROLE_CLIENT','ROLE_MODERATOR'])
 class AnnonceController {
 
     AnnonceService annonceService
@@ -48,6 +48,9 @@ class AnnonceController {
 
     def edit(Long id) {
         respond annonceService.get(id)
+    }
+    def listAll() {
+        respond Annonce.list()
     }
 
     def update(Annonce annonce) {

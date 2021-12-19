@@ -9,6 +9,7 @@ interface AnnonceService {
 
     List<Annonce> list(Map args)
 
+    List<Annonce> listAll()
     Long count()
 
     void delete(Serializable id)

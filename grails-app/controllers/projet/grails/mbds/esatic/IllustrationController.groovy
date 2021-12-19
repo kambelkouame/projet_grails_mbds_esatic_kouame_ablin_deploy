@@ -5,7 +5,7 @@ import grails.validation.ValidationException
 import static org.springframework.http.HttpStatus.*
 
 
-@Secured('ROLE_ADMIN')
+@Secured('ROLE_ADMIN','ROLE_MODERATOR')
 class IllustrationController {
 
     IllustrationService illustrationService
@@ -19,6 +19,10 @@ class IllustrationController {
 
     def show(Long id) {
         respond illustrationService.get(id)
+    }
+    
+    def listAll() {
+        respond Illustration.list()
     }
 
     def create() {

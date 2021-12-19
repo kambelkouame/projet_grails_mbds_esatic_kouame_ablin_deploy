@@ -2,7 +2,7 @@
 <html lang="en">
 	<!--begin::Head-->
 	<head><base href="../">
-		<title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
+		<title>Le bon coins</title>
 		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
 		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -849,108 +849,7 @@
 																	</div>
 																</div>
 															</div>
-															<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-																<span class="menu-link py-3">
-																	<span class="menu-bullet">
-																		<span class="bullet bullet-dot"></span>
-																	</span>
-																	<span class="menu-title">Aside Flow</span>
-																	<span class="menu-arrow"></span>
-																</span>
-																<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/aside/sign-in.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Sign-in</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/aside/sign-up.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Sign-up</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/aside/two-steps.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Two-steps</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/aside/password-reset.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Password Reset</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/aside/new-password.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">New Password</span>
-																		</a>
-																	</div>
-																</div>
-															</div>
-															<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
-																<span class="menu-link py-3">
-																	<span class="menu-bullet">
-																		<span class="bullet bullet-dot"></span>
-																	</span>
-																	<span class="menu-title">Dark Flow</span>
-																	<span class="menu-arrow"></span>
-																</span>
-																<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg py-lg-4 w-lg-225px">
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/dark/sign-in.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Sign-in</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/dark/sign-up.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Sign-up</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/dark/two-steps.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Two-steps</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/dark/password-reset.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">Password Reset</span>
-																		</a>
-																	</div>
-																	<div class="menu-item">
-																		<a class="menu-link py-3" href="../../demo6/dist/authentication/flows/dark/new-password.html">
-																			<span class="menu-bullet">
-																				<span class="bullet bullet-dot"></span>
-																			</span>
-																			<span class="menu-title">New Password</span>
-																		</a>
-																	</div>
-																</div>
-															</div>
+														
 															<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
 																<span class="menu-link py-3">
 																	<span class="menu-bullet">

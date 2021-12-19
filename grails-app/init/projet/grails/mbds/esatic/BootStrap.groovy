@@ -6,12 +6,15 @@ class BootStrap {
 
         def adminRole = new Role(authority: 'ROLE_ADMIN').save()
         def clientRole = new Role(authority: 'ROLE_CLIENT').save()
+        def moderateurRole = new Role(authority: 'ROLE_MODERATOR').save()
 
         def adminUser = new User(username: "admin", password: "admin").save()
+        def moderatorUser = new User(username: "moderator", password: "moderator").save()
         def clientUser = new User(username: "user", password: "user").save()
 
         UserRole.create(adminUser, adminRole)
         UserRole.create(clientUser, clientRole)
+       UserRole.create(moderatorUser, moderateurRole)
 
         UserRole.withSession {
             it.flush()
