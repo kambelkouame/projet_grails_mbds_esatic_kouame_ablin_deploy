@@ -1692,7 +1692,7 @@
 											</span>
 											<!--end::Svg Icon-->
 											<div class="text-white fw-bolder fs-2 mb-2 mt-5">Users</div>
-											<div class="fw-bold text-white">Nombre d'utilisateurs:</div>
+											<div class="fw-bold text-white">Users Number:6</div>
 										</div>
 										<!--end::Body-->
 									</a>
@@ -1713,7 +1713,7 @@
 											</span>
 											<!--end::Svg Icon-->
 											<div class="text-white fw-bolder fs-2 mb-2 mt-5">Annonce</div>
-											<div class="fw-bold text-white">Nombre d'annonce</div>
+											<div class="fw-bold text-white">Annonce number:25</div>
 										</div>
 										<!--end::Body-->
 									</a>
@@ -1733,7 +1733,7 @@
 											</span>
 											<!--end::Svg Icon-->
 											<div class="text-white fw-bolder fs-2 mb-2 mt-5">Flux</div>
-											<div class="fw-bold text-white">Nombre d'intereaction:</div>
+											<div class="fw-bold text-white">Nombre d'intereaction:1</div>
 										</div>
 										<!--end::Body-->
 									</a>
