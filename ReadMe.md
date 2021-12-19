@@ -14,4 +14,4 @@ for setup this project  :
 
 [4.] deploye :
     ## The application is deploye on heroku but not hosted
-    Link :https://le-bon-coins.herokuapp.com/
+    Link :https://leboncoinmbds.herokuapp.com/
