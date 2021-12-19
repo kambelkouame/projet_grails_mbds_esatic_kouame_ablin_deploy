@@ -1,0 +1,6 @@
+#Sun, 19 Dec 2021 18:35:16 +0000
+
+info.app.version=0.1
+info.app.name=projet_grails_mbds_esatic_kouame_ablin
+grails.env=development
+info.app.grailsVersion=3.3.8
