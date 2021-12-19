@@ -39,9 +39,10 @@
 					<!--begin::Brand-->
 					<div class="aside-logo py-8" id="kt_aside_logo">
 						<!--begin::Logo-->
-						<a href="../../demo6/dist/index.html" class="d-flex align-items-center">
-							<img alt="Logo" src="assets/media/logos/logo-demo6.svg" class="h-45px logo" />
-						</a>
+						<a href="#" class="d-flex align-items-center">
+						
+                            <asset:image src="logo.png" absolute="true"  class="h-30px"></asset:image>
+                        </a>
 						<!--end::Logo-->
 					</div>
 					<!--end::Brand-->
@@ -52,7 +53,7 @@
 							<!--begin::Menu-->
 							<div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bold" id="#kt_aside_menu" data-kt-menu="true">
 								<div class="menu-item py-2">
-									<a class="menu-link menu-center" href="../../demo6/dist/index.html" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+									<a class="menu-link  menu-center" href="/" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon me-0">
 											<i class="bi bi-house fs-2"></i>
 										</span>
@@ -60,327 +61,40 @@
 									</a>
 								</div>
 								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
-									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+									<span class="menu-link active menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon me-0">
-											<i class="bi bi-file-earmark-lock fs-2"></i>
+												<i class="bi bi-file-text fs-2"></i>
 										</span>
-										<span class="menu-title">Auth</span>
+										<span class="menu-title">Annonce</span>
 									</span>
 									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
-										<div class="menu-item">
+											<div class="menu-item">
 											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Authentication</span>
+												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Annonce</span>
 											</div>
 										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Basic</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
+										<div class="menu-sub menu-sub-accordion">
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/flows/basic/sign-in.html">
+													<a class="menu-link" href="/annonce/index">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-														<span class="menu-title">Sign-in</span>
+														<span class="menu-title">List Anonce </span>
 													</a>
 												</div>
 												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/flows/basic/sign-up.html">
+													<a class="menu-link" href="/annonce/create">
 														<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-														<span class="menu-title">Sign-up</span>
+														<span class="menu-title">Create Annonce</span>
 													</a>
 												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/flows/basic/two-steps.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Two-steps</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/flows/basic/password-reset.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Password Reset</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/flows/basic/new-password.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">New Password</span>
-													</a>
-												</div>
+												
 											</div>
-										</div>
-										<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Extended</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/extended/multi-steps-sign-up.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Multi-steps Sign-up</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/extended/free-trial-sign-up.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Free Trial Sign-up</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/extended/coming-soon.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Coming Soon</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/verify-email.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Verify Email</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/password-confirmation.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Password Confirmation</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" data-kt-menu-flip="false" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">General</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion menu-sub-lg-dropdown w-lg-225px px-lg-1 py-lg-4">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/welcome.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Welcome</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/verify-email.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Verify Email</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/password-confirmation.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Password Confirmation</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/close-account.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Close Account</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/error-404.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Error 404</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/general/error-500.html">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Error 500</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" data-kt-menu-flip="false" class="menu-item menu-accordion">
-											<span class="menu-link">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Email</span>
-												<span class="menu-arrow"></span>
-											</span>
-											<div class="menu-sub menu-sub-accordion menu-sub-lg-dropdown w-lg-225px px-lg-1 py-lg-4">
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/email/verify-email.html" target="blank">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Verify Email</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/email/password-reset.html" target="blank">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Password Reset</span>
-													</a>
-												</div>
-												<div class="menu-item">
-													<a class="menu-link" href="../../demo6/dist/authentication/email/password-change.html" target="blank">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-														<span class="menu-title">Password Change</span>
-													</a>
-												</div>
-											</div>
-										</div>
 									</div>
 								</div>
 								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
-									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon me-0">
-											<i class="bi bi-shield-check fs-2"></i>
-										</span>
-										<span class="menu-title">Account</span>
-									</span>
-									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
-										<div class="menu-item">
-											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Account</span>
-											</div>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/account/overview.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Overview</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/account/settings.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Settings</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/account/security.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Security</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/account/billing.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Billing</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/account/statements.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Statements</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/account/referrals.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Referrals</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/account/api-keys.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">API Keys</span>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
-									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon me-0">
-											<i class="bi bi-chat-square-text fs-2"></i>
-										</span>
-										<span class="menu-title">Chat</span>
-									</span>
-									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
-										<div class="menu-item">
-											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Chat</span>
-											</div>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/apps/chat/private.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Private Chat</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/apps/chat/group.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Group Chat</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/apps/chat/drawer.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Drawer Chat</span>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item here show py-2">
 									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon me-0">
 											<i class="bi bi-people fs-2"></i>
@@ -394,141 +108,26 @@
 											</div>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/apps/customers/getting-started.html">
+											<a class="menu-link" href="/user/create">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Getting Started</span>
+												<span class="menu-title">Create user</span>
 											</a>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/apps/customers/list.html">
+											<a class="menu-link" href="/user/index">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Customer Listing</span>
+												<span class="menu-title">List users</span>
 											</a>
 										</div>
-										<div class="menu-item">
-											<a class="menu-link active" href="../../demo6/dist/apps/customers/view.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Customer Details</span>
-											</a>
-										</div>
+										
 									</div>
 								</div>
-								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
-									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon me-0">
-											<i class="bi bi-file-text fs-2"></i>
-										</span>
-										<span class="menu-title">General</span>
-									</span>
-									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
-										<div class="menu-item">
-											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">General</span>
-											</div>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/pages/company/about.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">About Us</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/pages/company/pricing.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Pricing</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/pages/company/contact.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Contact Us</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/pages/company/team.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Our Team</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/pages/company/licenses.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Licenses</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/pages/company/sitemap.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Sitemap</span>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
-									<span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon me-0">
-											<i class="bi bi-gear fs-2"></i>
-										</span>
-										<span class="menu-title">More</span>
-									</span>
-									<div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
-										<div class="menu-item">
-											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Resources</span>
-											</div>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/documentation/base/utilities.html" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-icon">
-													<i class="bi bi-grid fs-3"></i>
-												</span>
-												<span class="menu-title">Components</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/documentation/getting-started.html" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-icon">
-													<i class="bi bi-box fs-3"></i>
-												</span>
-												<span class="menu-title">Documentation</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo6/layout-builder.html" title="Build your layout, preview and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-icon">
-													<i class="bi bi-layers fs-3"></i>
-												</span>
-												<span class="menu-title">Layout Builder</span>
-											</a>
-										</div>
-										<div class="menu-item">
-											<a class="menu-link" href="../../demo6/dist/documentation/getting-started/changelog.html">
-												<span class="menu-icon">
-													<i class="bi bi-card-text fs-3"></i>
-												</span>
-												<span class="menu-title">Changelog v8.0.25</span>
-											</a>
-										</div>
-									</div>
-								</div>
+								
+							
 							</div>
 							<!--end::Menu-->
 						</div>
@@ -536,90 +135,7 @@
 					</div>
 					<!--end::Aside menu-->
 					<!--begin::Footer-->
-					<div class="aside-footer flex-column-auto" id="kt_aside_footer">
-						<!--begin::Menu-->
-						<div class="d-flex justify-content-center">
-							<button type="button" class="btn btm-sm btn-icon btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-overflow="true" data-kt-menu-placement="top-start" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-dismiss="click" title="Quick actions">
-								<!--begin::Svg Icon | path: icons/duotune/general/gen008.svg-->
-								<span class="svg-icon svg-icon-1">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-										<path d="M3 2H10C10.6 2 11 2.4 11 3V10C11 10.6 10.6 11 10 11H3C2.4 11 2 10.6 2 10V3C2 2.4 2.4 2 3 2Z" fill="black" />
-										<path opacity="0.3" d="M14 2H21C21.6 2 22 2.4 22 3V10C22 10.6 21.6 11 21 11H14C13.4 11 13 10.6 13 10V3C13 2.4 13.4 2 14 2Z" fill="black" />
-										<path opacity="0.3" d="M3 13H10C10.6 13 11 13.4 11 14V21C11 21.6 10.6 22 10 22H3C2.4 22 2 21.6 2 21V14C2 13.4 2.4 13 3 13Z" fill="black" />
-										<path opacity="0.3" d="M14 13H21C21.6 13 22 13.4 22 14V21C22 21.6 21.6 22 21 22H14C13.4 22 13 21.6 13 21V14C13 13.4 13.4 13 14 13Z" fill="black" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-							</button>
-							<!--begin::Menu 2-->
-							<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px" data-kt-menu="true">
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<div class="menu-content fs-6 text-dark fw-bolder px-3 py-4">Quick Actions</div>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu separator-->
-								<div class="separator mb-3 opacity-75"></div>
-								<!--end::Menu separator-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link px-3">New Ticket</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link px-3">New Customer</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-									<!--begin::Menu item-->
-									<a href="#" class="menu-link px-3">
-										<span class="menu-title">New Group</span>
-										<span class="menu-arrow"></span>
-									</a>
-									<!--end::Menu item-->
-									<!--begin::Menu sub-->
-									<div class="menu-sub menu-sub-dropdown w-175px py-4">
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3">Admin Group</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3">Staff Group</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link px-3">Member Group</a>
-										</div>
-										<!--end::Menu item-->
-									</div>
-									<!--end::Menu sub-->
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<a href="#" class="menu-link px-3">New Contact</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu separator-->
-								<div class="separator mt-3 opacity-75"></div>
-								<!--end::Menu separator-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-3">
-									<div class="menu-content px-3 py-3">
-										<a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
-									</div>
-								</div>
-								<!--end::Menu item-->
-							</div>
-							<!--end::Menu 2-->
-						</div>
-						<!--end::Menu-->
-					</div>
+				
 					<!--end::Footer-->
 				</div>
 				<!--end::Aside-->
@@ -1888,7 +1404,7 @@
 																	<span class="menu-bullet">
 																		<span class="bullet bullet-dot"></span>
 																	</span>
-																	<span class="menu-title">Customer Details</span>
+																	<span class="menu-title">Illustration details</span>
 																</a>
 															</div>
 														</div>
@@ -3782,7 +3298,7 @@
 								<!--begin::Page title-->
 								<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
 									<!--begin::Title-->
-									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Customer Details</h1>
+									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Illustration details</h1>
 									<!--end::Title-->
 									<!--begin::Separator-->
 									<span class="h-20px border-gray-200 border-start mx-3"></span>
@@ -3800,7 +3316,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Apps</li>
+										<li class="breadcrumb-item text-muted">annonce</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
@@ -3808,7 +3324,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Customers</li>
+										<li class="breadcrumb-item text-muted">create illustration</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
@@ -3816,7 +3332,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-dark">Customer Details</li>
+										<li class="breadcrumb-item text-dark">show illustration</li>
 										<!--end::Item-->
 									</ul>
 									<!--end::Breadcrumb-->
@@ -3827,19 +3343,7 @@
 							<!--begin::Action group-->
 							<div class="d-flex align-items-center flex-wrap">
 								<!--begin::Wrapper-->
-								<div class="flex-shrink-0 me-2">
-									<ul class="nav">
-										<li class="nav-item">
-											<a class="nav-link btn btn-sm btn-color-muted btn-active-color-primary btn-active-light active fw-bold fs-7 px-4 me-1" data-bs-toggle="tab" href="#">Day</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link btn btn-sm btn-color-muted btn-active-color-primary btn-active-light fw-bold fs-7 px-4 me-1" data-bs-toggle="tab" href="">Week</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link btn btn-sm btn-color-muted btn-active-color-primary btn-active-light fw-bold fs-7 px-4" data-bs-toggle="tab" href="#">Year</a>
-										</li>
-									</ul>
-								</div>
+							
 								<!--end::Wrapper-->
 								<!--begin::Wrapper-->
 								<div class="d-flex align-items-center">
@@ -3882,14 +3386,7 @@
 								<!--end::Sidebar-->
 								<!--begin::Content-->
 
-								<div class="nav" role="navigation">
-    <ul>
-        <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-        <li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]"/></g:link></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label"
-                                                              args="[entityName]"/></g:link></li>
-    </ul>
-</div>
+				
 								<div class="flex-lg-row-fluid ms-lg-15">
 									<!--begin:::Tabs-->
 									<ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x border-0 fs-4 fw-bold mb-8">
@@ -3899,13 +3396,9 @@
 										<!--begin:::Tab item-->
 										<li class="nav-item ms-auto">
 											<!--begin::Action menu-->
-											<a href="#" class="btn btn-primary ps-7" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">Actions
+											<a href="/" class="btn btn-primary ps-7"  data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">Home
 											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-											<span class="svg-icon svg-icon-2 me-0">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="black" />
-												</svg>
-											</span>
+										
 											<!--end::Svg Icon--></a>
 											<!--begin::Menu-->
 											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold py-4 w-250px fs-6" data-kt-menu="true">
@@ -4005,13 +3498,13 @@
 												<div class="card-header border-0">
 													<!--begin::Card title-->
 													<div class="card-title">
-														<h2>Details Annonce</h2>
+														<h2>Illustration details </h2>
 													</div>
 													<!--end::Card title-->
 													<!--begin::Card toolbar-->
 													<div class="card-toolbar">
 														<!--begin::Filter-->
-														<button type="button" class="btn btn-sm btn-flex btn-light-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_payment">
+													<a href="/illustration/create">	<button type="button" class="btn btn-sm btn-flex btn-light-primary">
 														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
 														<span class="svg-icon svg-icon-3">
 															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -4020,7 +3513,7 @@
 																<rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
 															</svg>
 														</span>
-														<!--end::Svg Icon-->Add payment</button>
+														<!--end::Svg Icon-->new Illustration</button></a>	
 														<!--end::Filter-->
 													</div>
 													<!--end::Card toolbar-->
@@ -5988,21 +5481,11 @@
 							<!--begin::Copyright-->
 							<div class="text-dark order-2 order-md-1">
 								<span class="text-muted fw-bold me-1">2021©</span>
-								<a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+								<a href="#" target="_blank" class="text-gray-800 text-hover-primary">le bon coin</a>
 							</div>
 							<!--end::Copyright-->
 							<!--begin::Menu-->
-							<ul class="menu menu-gray-600 menu-hover-primary fw-bold order-1">
-								<li class="menu-item">
-									<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://keenthemes.com/support" target="_blank" class="menu-link px-2">Support</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-								</li>
-							</ul>
+							
 							<!--end::Menu-->
 						</div>
 						<!--end::Container-->
