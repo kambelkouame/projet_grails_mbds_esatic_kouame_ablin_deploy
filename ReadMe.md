@@ -13,5 +13,5 @@ for setup this project  :
 [3.] the application is hosted on localhost:8081
 
 [4.] deploye :
-    ## The application is deploye on heroku but noy hosted
-    Link :
+    ## The application is deploye on heroku but not hosted
+    Link :https://le-bon-coins.herokuapp.com/
