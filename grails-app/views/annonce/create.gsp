@@ -3363,20 +3363,34 @@
 					<!--begin::Content-->
 					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 						<!--begin::Container-->
+
+								<ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x border-0 fs-4 fw-bold mb-8">
+										<!--begin:::Tab item-->
+									
+										<!--end:::Tab item-->
+										<!--begin:::Tab item-->
+										<li class="nav-item ms-auto">
+											<!--begin::Action menu-->
+
+											<a href="/" class="btn btn-danger ps-7"  data-kt-menu-placement="bottom-end">Home
+											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+										
+											</a>
+										
+
+											<a href="/annonce/index" class="btn btn-primary ps-7"  data-kt-menu-placement="bottom-end"> Annonce List
+											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+										
+											</a>
+											
+										</li>
+										
+										<!--end:::Tab item-->
+									</ul>
+
 						<div id="kt_content_container" class="container-xxl">
 							<!--begin::Navbar-->
-								<h1><g:message code="default.create.label" args="[entityName]"/></h1>
-				<g:if test="${flash.message}">
-					<div class="message" role="status">${flash.message}</div>
-				</g:if>
-				<g:hasErrors bean="${this.user}">
-					<ul class="errors" role="alert">
-						<g:eachError bean="${this.user}" var="error">
-							<li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message
-									error="${error}"/></li>
-						</g:eachError>
-					</ul>
-				</g:hasErrors>		
+								
 					<!--begin::Basic info-->
 				
 					<g:form resource="${this.annonce}" method="POST">
@@ -3385,7 +3399,7 @@
 								<div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse" data-bs-target="#kt_account_profile_details" aria-expanded="true" aria-controls="kt_account_profile_details">
 									<!--begin::Card title-->
 									<div class="card-title m-0">
-										<h3 class="fw-bolder m-0">Profile Details</h3>
+										<h3 class="fw-bolder m-0">Create Annonce</h3>
 									</div>
 									<!--end::Card title-->
 								</div>
@@ -3393,28 +3407,17 @@
 								<!--begin::Content-->
 								
 								<div id="kt_account_profile_details" class="collapse show">
-									   
-											<div class="row mb-6">
-
-
+									   <div class="row mb-6">
 												<!--begin::Label-->
-												<label class="col-lg-4 col-form-label required fw-bold fs-6">Title</label>
+													<label class="col-lg-4 col-form-label required fw-bold fs-6">Title</label>
 												<!--end::Label-->
 												<!--begin::Col-->
-												<div class="col-lg-8">
-													<!--begin::Row-->
-													<div class="row">
-														<!--begin::Col-->
-														<div class="col-lg-8 fv-row">
-															<input type="text" name="title" value="" required="" id="title" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Title" />
-														</div>
-													
-														
-													</div>
-													<!--end::Row-->
+												<div class="col-lg-8 fv-row">
+													<input type="text" name="title" value="" required="" id="title" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Title" />
 												</div>
 												<!--end::Col-->
 											</div>
+										
 											<!--end::Input group-->
 											<!--begin::Input group-->
 											<div class="row mb-6">

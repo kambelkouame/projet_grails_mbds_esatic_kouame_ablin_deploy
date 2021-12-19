@@ -5,7 +5,7 @@
 <html lang="en">
 	<!--begin::Head-->
 	<head><base href="../../">
-		<title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
+		<title>Le bon coins</title>
 		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
 		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -1985,7 +1985,7 @@
 								<!--begin::Page title-->
 								<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
 									<!--begin::Title-->
-									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Customer Details</h1>
+									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Annonce details</h1>
 									<!--end::Title-->
 									<!--begin::Separator-->
 									<span class="h-20px border-gray-200 border-start mx-3"></span>
@@ -1994,7 +1994,7 @@
 									<ul class="breadcrumb breadcrumb-separatorless fw-bold fs-7 my-1">
 										<!--begin::Item-->
 										<li class="breadcrumb-item text-muted">
-											<a href="../../demo6/dist/index.html" class="text-muted text-hover-primary">Home</a>
+											<a href="/" class="text-muted text-hover-primary">Home</a>
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
@@ -2003,7 +2003,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Apps</li>
+										<li class="breadcrumb-item text-muted">annonce</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
@@ -2011,16 +2011,14 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Customers</li>
+										<li class="breadcrumb-item text-muted">details</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
 											<span class="bullet bg-gray-200 w-5px h-2px"></span>
 										</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item text-dark">Customer Details</li>
-										<!--end::Item-->
+									
+									
 									</ul>
 									<!--end::Breadcrumb-->
 								</div>
@@ -2074,12 +2072,7 @@
 								<!--begin::Content-->
 
 								<div class="nav" role="navigation">
-    <ul>
-        <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-        <li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]"/></g:link></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label"
-                                                              args="[entityName]"/></g:link></li>
-    </ul>
+
 </div>
 								<div class="flex-lg-row-fluid ms-lg-15">
 									<!--begin:::Tabs-->
@@ -2090,99 +2083,20 @@
 										<!--begin:::Tab item-->
 										<li class="nav-item ms-auto">
 											<!--begin::Action menu-->
-											<a href="#" class="btn btn-primary ps-7" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">Actions
+
+											<a href="/" class="btn btn-danger ps-7"  data-kt-menu-placement="bottom-end">Home
 											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-											<span class="svg-icon svg-icon-2 me-0">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon--></a>
-											<!--begin::Menu-->
-											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold py-4 w-250px fs-6" data-kt-menu="true">
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<div class="menu-content text-muted pb-2 px-5 fs-7 text-uppercase">Payments</div>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link px-5">Create invoice</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link flex-stack px-5">Create payments
-													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
-													<a href="#" class="menu-link px-5">
-														<span class="menu-title">Subscription</span>
-														<span class="menu-arrow"></span>
-													</a>
-													<!--begin::Menu sub-->
-													<div class="menu-sub menu-sub-dropdown w-175px py-4">
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="#" class="menu-link px-5">Apps</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="#" class="menu-link px-5">Billing</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="#" class="menu-link px-5">Statements</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu separator-->
-														<div class="separator my-2"></div>
-														<!--end::Menu separator-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<div class="menu-content px-3">
-																<label class="form-check form-switch form-check-custom form-check-solid">
-																	<input class="form-check-input w-30px h-20px" type="checkbox" value="" name="notifications" checked="checked" id="kt_user_menu_notifications" />
-																	<span class="form-check-label text-muted fs-6" for="kt_user_menu_notifications">Notifications</span>
-																</label>
-															</div>
-														</div>
-														<!--end::Menu item-->
-													</div>
-													<!--end::Menu sub-->
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu separator-->
-												<div class="separator my-3"></div>
-												<!--end::Menu separator-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<div class="menu-content text-muted pb-2 px-5 fs-7 text-uppercase">Account</div>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link px-5">Reports</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5 my-1">
-													<a href="#" class="menu-link px-5">Account Settings</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link text-danger px-5">Delete customer</a>
-												</div>
-												<!--end::Menu item-->
-											</div>
-											<!--end::Menu-->
-											<!--end::Menu-->
+										
+											</a>
+										
+
+											<a href="/annonce/index" class="btn btn-primary ps-7"  data-kt-menu-placement="bottom-end"> Annonce List
+											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+										
+											</a>
+											
 										</li>
+										
 										<!--end:::Tab item-->
 									</ul>
 									<!--end:::Tabs-->
@@ -2202,7 +2116,7 @@
 													<!--begin::Card toolbar-->
 													<div class="card-toolbar">
 														<!--begin::Filter-->
-														<button type="button" class="btn btn-sm btn-flex btn-light-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_payment">
+														<a href="/annonce/create" >	<button type="button" class="btn btn-sm btn-flex btn-light-success"  data-bs-target="#kt_modal_add_payment">
 														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
 														<span class="svg-icon svg-icon-3">
 															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -2211,7 +2125,22 @@
 																<rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
 															</svg>
 														</span>
-														<!--end::Svg Icon-->Add payment</button>
+														<!--end::Svg Icon-->Add new Annonce</button> 
+											</a>
+
+												<a href="/annonce/create" >	
+														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
+													<g:form resource="${this.annonce}" method="DELETE">
+														<fieldset class="buttons">
+															<g:link class="edit" action="edit" resource="${this.annonce}"><g:message code="default.button.edit.label"
+																																	default="Edit"/></g:link>
+															<input class="btn btn-sm btn-flex btn-light-danger"  class="delete" type="submit"
+																value="${message(code: 'default.button.delete.label', default: 'Delete')}"
+																onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');"/>
+														</fieldset>
+													</g:form>
+														 
+											</a>
 														<!--end::Filter-->
 													</div>
 													<!--end::Card toolbar-->
@@ -2249,7 +2178,7 @@
 																<!--end::Invoice=-->
 																<!--begin::Status=-->
 																<td>
-																	${annonce.price}
+																	${annonce.price} $
 																</td>
 																<!--end::Status=-->
 																<!--begin::Amount=-->
@@ -4187,17 +4116,7 @@
 							</div>
 							<!--end::Copyright-->
 							<!--begin::Menu-->
-							<ul class="menu menu-gray-600 menu-hover-primary fw-bold order-1">
-								<li class="menu-item">
-									<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://keenthemes.com/support" target="_blank" class="menu-link px-2">Support</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-								</li>
-							</ul>
+						
 							<!--end::Menu-->
 						</div>
 						<!--end::Container-->
@@ -4212,315 +4131,7 @@
 		<!--begin::Drawers-->
 		<!--begin::Activities drawer-->
 	
-		<!--end::Activities drawer-->
-		<!--begin::Exolore drawer toggle-->
-		<button id="kt_explore_toggle" class="btn btn-sm btn-white btn-active-primary shadow-sm position-fixed px-5 fw-bolder zindex-2 top-50 mt-10 end-0 transform-90 fs-6 rounded-top-0" title="Explore Metronic" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover">
-			<span id="kt_explore_toggle_label">Explore</span>
-		</button>
-		<!--end::Exolore drawer toggle-->
-		<!--begin::Exolore drawer-->
-		<div id="kt_explore" class="bg-white" data-kt-drawer="true" data-kt-drawer-name="explore" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'lg': '375px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_explore_toggle" data-kt-drawer-close="#kt_explore_close">
-			<!--begin::Card-->
-			<div class="card shadow-none w-100">
-				<!--begin::Header-->
-				<div class="card-header" id="kt_explore_header">
-					<h3 class="card-title fw-bolder text-gray-700">Explore Metronic</h3>
-					<div class="card-toolbar">
-						<button type="button" class="btn btn-sm btn-icon btn-active-light-primary me-n5" id="kt_explore_close">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-							<span class="svg-icon svg-icon-2">
-								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->
-						</button>
-					</div>
-				</div>
-				<!--end::Header-->
-				<!--begin::Body-->
-				<div class="card-body" id="kt_explore_body">
-					<!--begin::Content-->
-					<div id="kt_explore_scroll" class="scroll-y me-n5 pe-5" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_explore_body" data-kt-scroll-dependencies="#kt_explore_header, #kt_explore_footer" data-kt-scroll-offset="5px">
-						<!--begin::Demos-->
-						<div class="mb-0">
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo1</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo1.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo1" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo2</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo2.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo2" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo3</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo3.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo3" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo4</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo4.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo4" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo5</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo5.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo5" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo6</h3>
-								<div class="overlay overflow-hidden border border-4 border-primary p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo6.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo6" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo7</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo7.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo7" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo8</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo8.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo8" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo9</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo9.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo9" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo10</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo10.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo11</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo11.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo11" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo12</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo12.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo13</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper rounded">
-										<img src="assets/media/demos/demo13.png" alt="demo" class="w-100 rounded" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<a href="https://preview.keenthemes.com/metronic8/demo13" class="btn btn-primary shadow">Preview</a>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo14</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo14.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo15</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo15.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo16</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo16.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo17</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo17.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo18</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo18.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo19</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo19.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-							<!--begin::Demo-->
-							<div class="mb-7">
-								<h3 class="fw-bold text-center mb-3">Demo20</h3>
-								<div class="overlay overflow-hidden border border-4 p-2 rounded">
-									<div class="overlay-wrapper">
-										<img src="assets/media/demos/demo20.png" alt="demo" class="w-100 rounded opacity-75" />
-									</div>
-									<div class="overlay-layer bg-dark bg-opacity-10">
-										<div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
-									</div>
-								</div>
-							</div>
-							<!--end::Demo-->
-						</div>
-						<!--end::Demos-->
-					</div>
-					<!--end::Content-->
-				</div>
-				<!--end::Body-->
-				<!--begin::Footer-->
-				<div class="card-footer py-5 text-center" id="kt_explore_footer">
-					<a href="https://1.envato.market/EA4JP" class="btn btn-primary">Purchase Metronic</a>
-				</div>
-				<!--end::Footer-->
-			</div>
-			<!--end::Card-->
-		</div>
-		<!--end::Exolore drawer-->
-		<!--begin::Chat drawer-->
+
 	
 		<div class="modal fade" id="kt_modal_create_app" tabindex="-1" aria-hidden="true">
 			<!--begin::Modal dialog-->

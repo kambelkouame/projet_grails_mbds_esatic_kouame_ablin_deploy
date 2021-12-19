@@ -5,7 +5,7 @@
 <html lang="en">
 	<!--begin::Head-->
 	<head><base href="../../">
-		<title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
+		<title>Le bon coins</title>
 		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
 		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -1985,7 +1985,7 @@
 								<!--begin::Page title-->
 								<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
 									<!--begin::Title-->
-									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Customer Details</h1>
+									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Annonce</h1>
 									<!--end::Title-->
 									<!--begin::Separator-->
 									<span class="h-20px border-gray-200 border-start mx-3"></span>
@@ -1994,7 +1994,7 @@
 									<ul class="breadcrumb breadcrumb-separatorless fw-bold fs-7 my-1">
 										<!--begin::Item-->
 										<li class="breadcrumb-item text-muted">
-											<a href="../../demo6/dist/index.html" class="text-muted text-hover-primary">Home</a>
+											<a href="/" class="text-muted text-hover-primary">Home</a>
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
@@ -2003,7 +2003,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Apps</li>
+										<li class="breadcrumb-item text-muted">annonce</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
@@ -2011,16 +2011,13 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Customers</li>
+										<li class="breadcrumb-item text-muted">index</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
 											<span class="bullet bg-gray-200 w-5px h-2px"></span>
 										</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item text-dark">Customer Details</li>
-										<!--end::Item-->
+										
 									</ul>
 									<!--end::Breadcrumb-->
 								</div>
@@ -2083,99 +2080,15 @@
 										<!--begin:::Tab item-->
 										<li class="nav-item ms-auto">
 											<!--begin::Action menu-->
-											<a href="#" class="btn btn-primary ps-7" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">Actions
+
+											<a href="/" class="btn btn-danger ps-7"  data-kt-menu-placement="bottom-end">Home
 											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-											<span class="svg-icon svg-icon-2 me-0">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon--></a>
-											<!--begin::Menu-->
-											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold py-4 w-250px fs-6" data-kt-menu="true">
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<div class="menu-content text-muted pb-2 px-5 fs-7 text-uppercase">Payments</div>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link px-5">Create invoice</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link flex-stack px-5">Create payments
-													<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5" data-kt-menu-trigger="hover" data-kt-menu-placement="left-start">
-													<a href="#" class="menu-link px-5">
-														<span class="menu-title">Subscription</span>
-														<span class="menu-arrow"></span>
-													</a>
-													<!--begin::Menu sub-->
-													<div class="menu-sub menu-sub-dropdown w-175px py-4">
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="#" class="menu-link px-5">Apps</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="#" class="menu-link px-5">Billing</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<a href="#" class="menu-link px-5">Statements</a>
-														</div>
-														<!--end::Menu item-->
-														<!--begin::Menu separator-->
-														<div class="separator my-2"></div>
-														<!--end::Menu separator-->
-														<!--begin::Menu item-->
-														<div class="menu-item px-3">
-															<div class="menu-content px-3">
-																<label class="form-check form-switch form-check-custom form-check-solid">
-																	<input class="form-check-input w-30px h-20px" type="checkbox" value="" name="notifications" checked="checked" id="kt_user_menu_notifications" />
-																	<span class="form-check-label text-muted fs-6" for="kt_user_menu_notifications">Notifications</span>
-																</label>
-															</div>
-														</div>
-														<!--end::Menu item-->
-													</div>
-													<!--end::Menu sub-->
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu separator-->
-												<div class="separator my-3"></div>
-												<!--end::Menu separator-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<div class="menu-content text-muted pb-2 px-5 fs-7 text-uppercase">Account</div>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link px-5">Reports</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5 my-1">
-													<a href="#" class="menu-link px-5">Account Settings</a>
-												</div>
-												<!--end::Menu item-->
-												<!--begin::Menu item-->
-												<div class="menu-item px-5">
-													<a href="#" class="menu-link text-danger px-5">Delete customer</a>
-												</div>
-												<!--end::Menu item-->
-											</div>
-											<!--end::Menu-->
-											<!--end::Menu-->
+										
+											</a>
+
+											
 										</li>
+										
 										<!--end:::Tab item-->
 									</ul>
 									<!--end:::Tabs-->
@@ -2197,6 +2110,8 @@
 														<!--begin::Filter-->
 														<button type="button" class="btn btn-sm btn-flex btn-light-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_payment">
 														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
+														<a href="/annonce/create" >	<button type="button" class="btn btn-sm btn-flex btn-light-success"  data-bs-target="#kt_modal_add_payment">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
 														<span class="svg-icon svg-icon-3">
 															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 																<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
@@ -2204,7 +2119,8 @@
 																<rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
 															</svg>
 														</span>
-														<!--end::Svg Icon-->Add payment</button>
+														<!--end::Svg Icon-->Add Annonce</button> 
+											</a>
 														<!--end::Filter-->
 													</div>
 													<!--end::Card toolbar-->
@@ -2224,6 +2140,7 @@
 																<th class="min-w-100px">Status</th>
 																<th class="text-end min-w-100px pe-4">Illustrations</th>
                                                                 <th class="text-end min-w-100px pe-4">Author</th>
+																<th class="text-end min-w-100px pe-4">Action</th>
 															</tr>
 															<!--end::Table row-->
 														</thead>
@@ -2259,7 +2176,9 @@
                                                                 <td> <g:link controller="annonce" action="show" id="${annonce.id}"><g:each in="${annonce.author}" var="user">
                     ${user.username}
                 </g:each></g:link> </td>
-														
+															<td> <g:link controller="annonce" action="show" id="${annonce.id}"><button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">Shows</button>
+											<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+										</g:link></td>
 															</tr>
                                                               </g:each>
 															<!--end::Table row-->
@@ -4184,21 +4103,11 @@
 							<!--begin::Copyright-->
 							<div class="text-dark order-2 order-md-1">
 								<span class="text-muted fw-bold me-1">2021©</span>
-								<a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+								<a href="/" target="_blank" class="text-gray-800 text-hover-primary">Le bon coins</a>
 							</div>
 							<!--end::Copyright-->
 							<!--begin::Menu-->
-							<ul class="menu menu-gray-600 menu-hover-primary fw-bold order-1">
-								<li class="menu-item">
-									<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://keenthemes.com/support" target="_blank" class="menu-link px-2">Support</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-								</li>
-							</ul>
+						
 							<!--end::Menu-->
 						</div>
 						<!--end::Container-->
