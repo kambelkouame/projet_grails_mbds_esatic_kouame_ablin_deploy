@@ -4054,7 +4054,11 @@
 
 																<td>
                                                               
-																	<a href="#" class="text-gray-600 text-hover-primary mb-1">${illustration.annonce}</a>
+																	<a href="#" class="text-gray-600 text-hover-primary mb-1">
+     		
+			 <g:link controller="annonce" action="show" id="${illustration.id}"><g:each in="${illustration.annonce}" var="annonce">
+                    ${annonce.title}
+                </g:each></g:link>   </a>
 																</td>
 																<!--end::Invoice=-->
 																<!--begin::Status=-->

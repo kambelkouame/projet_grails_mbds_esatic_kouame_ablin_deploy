@@ -2139,7 +2139,7 @@
 												<div class="card-header border-0">
 													<!--begin::Card title-->
 													<div class="card-title">
-														<h2>Annonce Liste</h2>
+														<h2>Illustration Liste</h2>
 													</div>
 													<!--end::Card title-->
 													<!--begin::Card toolbar-->
@@ -2187,8 +2187,10 @@
 																</td>
 
 																<td>
-                                                                 <g:link controller="illustration" action="show" id="${illustration.id}">${illustration.annonce}</g:link></span>
-																	
+                                                               
+																	<g:link controller="illustration" action="show" id="${illustration.id}"><g:each in="${illustration.annonce}" var="annonce">
+                    ${annonce.title}
+                </g:each></g:link> 
 																</td>
 																<!--end::Invoice=-->
 																<!--begin::Status=-->

@@ -2073,14 +2073,7 @@
 								<!--end::Sidebar-->
 								<!--begin::Content-->
 
-								<div class="nav" role="navigation">
-    <ul>
-        <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-        <li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]"/></g:link></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label"
-                                                              args="[entityName]"/></g:link></li>
-    </ul>
-</div>
+
 								<div class="flex-lg-row-fluid ms-lg-15">
 									<!--begin:::Tabs-->
 									<ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x border-0 fs-4 fw-bold mb-8">
@@ -2260,8 +2253,12 @@
 																<td><span class="badge badge-light-success">${annonce.status}</span></td>
 																<!--end::Amount=-->
 																<!--begin::Date=-->
-																<td>  <g:link controller="annonce" action="show" id="${annonce.id}">${annonce.illustrations}</g:link></span></td>
-                                                                <td> <g:link controller="user" action="show" id="${annonce.id}">${annonce.author}</g:link> </td>
+																<td>  <g:link controller="annonce" action="show" id="${annonce.id}"><g:each in="${annonce.illustrations}" var="illustration">
+                    <img src="${grailsApplication.config.assets.url + illustration.filename}"/>
+                </g:each></g:link></span></td>
+                                                                <td> <g:link controller="annonce" action="show" id="${annonce.id}"><g:each in="${annonce.author}" var="user">
+                    ${user.username}
+                </g:each></g:link> </td>
 														
 															</tr>
                                                               </g:each>

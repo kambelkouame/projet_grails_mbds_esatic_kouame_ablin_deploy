@@ -3452,20 +3452,58 @@
 												<!--end::Label-->
 												<!--begin::Col-->
 												<div class="col-lg-8 fv-row">
-													  <g:select name="users" from="${users}" optionKey="id" optionValue="username"  class="form-select form-select-solid form-select-lg" data-control="select2"/>
+												<g:select name="author" from="${projet.grails.mbds.esatic.User.list()}" optionKey="id" optionValue="username"  class="form-select form-select-solid form-select-lg" data-control="select2"/>
+													
+												</div>
+												<!--end::Col-->
+											</div>
+											<div class="row mb-6">
+												<!--begin::Label-->
+												<label class="col-lg-4 col-form-label required fw-bold fs-6">status</label>
+												<!--end::Label-->
+												<!--begin::Col-->
+												<div class="col-lg-8 fv-row">
+													<!--begin::Options-->
+													<div class="d-flex align-items-center mt-3">
+														<!--begin::Option-->
+														<label class="form-check form-check-inline form-check-solid me-5">
+															<input  class="form-check-input"  name="status" id="status" type="checkbox" value="1" />
+															<span class="fw-bold ps-2 fs-6">active?</span>
+														</label>
+														<!--end::Option-->
+														<!--begin::Option-->
+													
+														<!--end::Option-->
+													</div>
+													<!--end::Options-->
+												</div>
+												<!--end::Col-->
+											</div>
+
+											<div class="row mb-6">
+												<!--begin::Label-->
+												<label class="col-lg-4 col-form-label required fw-bold fs-6">Add illustration</label>
+												<!--end::Label-->
+												<!--begin::Col-->
+												<div class="col-lg-8 fv-row">
+													<!--begin::Options-->
+													<div class="d-flex align-items-center mt-3">
+														<!--begin::Option-->
+														<label class="form-check form-check-inline form-check-solid me-5">
+														<a href="illustration/create?annonce.id=">	<button type="button" class="btn btn-primary" id="kt_account_profile_details_submit">import file</button></a>
+														</label>
+														<!--end::Option-->
+														<!--begin::Option-->
+													
+														<!--end::Option-->
+													</div>
+													<!--end::Options-->
 												</div>
 												<!--end::Col-->
 											</div>
 
 
-                                            <g:form resource="${this.annonce}" method="POST">
-                                            <fieldset class="form">
-                                                <f:all bean="annonce"/>
-                                            </fieldset>
-                                            <fieldset class="buttons">
-                                                <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
-                                            </fieldset>
-                                        </g:form>
+                                       
 										
 									
 										

@@ -3301,21 +3301,16 @@
 
 
 												<!--begin::Label-->
-												<label class="col-lg-4 col-form-label required fw-bold fs-6">fileName</label>
+												<label class="col-lg-4 col-form-label fw-bold fs-6">
+													<span class="required">file Name</span>
+													<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Phone number must be active"></i></label>
 												<!--end::Label-->
 												<!--begin::Col-->
-												<div class="col-lg-8">
-													<!--begin::Row-->
-													<div class="row">
-														<!--begin::Col-->
-														<div class="col-lg-8 fv-row">
-															<input type="text" name="filename" value="" required="" id="username" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="filename" />
-														</div>
+													<div class="col-lg-8 fv-row">
+														<input type="text" name="filename" value="" required="" id="username" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="filename" />
 													
-														
-													</div>
-													<!--end::Row-->
 												</div>
+											
 												<!--end::Col-->
 											</div>
 											<!--end::Input group-->
@@ -3333,7 +3328,7 @@
 												<!--begin::Col-->
 												<div class="col-lg-8 fv-row">
 
-                                              
+													<g:select name="annonce" from="${projet.grails.mbds.esatic.Annonce.list()}" optionKey="id" optionValue="title"  class="form-select form-select-solid form-select-lg" data-control="select2"/>
 												</div>
 												<!--end::Col-->
 											</div>
@@ -3343,14 +3338,7 @@
 										
 										</div>
 
-                                         <g:form resource="${this.illustration}" method="POST">
-                <fieldset class="form">
-                    <f:all bean="illustration"/>
-                </fieldset>
-                <fieldset class="buttons">
-                    <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
-                </fieldset>
-            </g:form>
+                 
 										<!--end::Card body-->
 										<!--begin::Actions-->
                                          
